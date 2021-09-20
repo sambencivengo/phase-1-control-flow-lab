@@ -3,10 +3,12 @@ function scuberGreetingForFeet(val){
   let result;
   if (val <= 400) {
     result = "This one is on me!";
-  } else if (val >= 2000 && val < 2501) {
-    result = "I will gladly take your thirty bucks."
+  // } else if (val >= 2000 && val < 2501) {
+  //   result = "I will gladly take your thirty bucks."
   } else if (val > 2500) {
     result = "No can do."
+  } else {
+    result = "I will gladly take your thirty bucks."
   }
   return result;
 }
